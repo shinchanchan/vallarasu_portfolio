@@ -96,7 +96,7 @@ nav .logo {
 
 /* Hero Section */
 .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.hero-content{text-align:center;position:relative;z-index:1; background: rgba(0,0,0,0.3); backdrop-filter: blur(2px); padding: 2rem; border-radius: 2rem; max-width: 85%; margin: 0 auto;}
+.hero-content{text-align:center;position:relative;z-index:1; background: rgba(0,0,0,0.1); backdrop-filter: blur(2px); padding: 2rem; border-radius: 2rem; max-width: 85%; margin: 0 auto;}
 .hero .badge{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem;border-radius:9999px;font-size:.875rem;color:hsl(var(--fg));background: rgba(0,0,0,0.5); margin-bottom:2rem}
 .hero h1{font-size:clamp(2.5rem,8vw,5rem);font-weight:900;margin-bottom:1rem}
 .hero .subtitle{font-size:clamp(1rem,3vw,1.5rem);color:hsl(var(--fg));max-width:600px;margin:0 auto 1rem; text-shadow:0 2px 5px rgba(0,0,0,0.3)}
@@ -225,9 +225,9 @@ footer p{font-size:.875rem;color:hsl(var(--muted-fg))}
 <body>
 
 <!-- NAVIGATION (Menu completely removed, only logo visible) -->
-<nav id="navbar">
+<nav id="navbar"  style="display: none;">
 <div class="container nav-inner">
-  <span class="logo gradient-text" onclick="scrollToSection('home')">Vallarasu R</span>
+  <span class="logo gradient-text"  onclick="scrollToSection('home')">Vallarasu R</span>
   <!-- No menu items, mobile toggle removed -->
 </div>
 </nav>
